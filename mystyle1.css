@@ -1,0 +1,73 @@
+#BA{
+  background-image: url('ground.jpg');
+  background-size: 100% 100%;
+  display:flex;
+  height : 100%;
+  /* padding:0px;; */
+}
+#boat{
+  display:flex;
+  background-image: url('water.jpg'); 
+  background-size: 100% 100%;
+  width:33.333%;
+  justify-content:center;
+  flex-direction: column; 
+}
+#boat1{
+ display:inline-flex;
+ width : 50%;
+ height : 11%;
+ background-image: url('boat.png'); 
+ background-size: 100% 100%;
+ align-items:center;
+ justify-content: space-around;
+}
+#butt{
+  background-color:yellow;
+}
+#move{
+  align-self: center
+}
+#A{
+  display: flex;
+  width:33.333%;
+}
+#A8{
+  display: flex;
+  align-items: center;
+  width:50%;
+  justify-content: space-around;
+}
+.mission {
+width : 40px;
+height : 77.5px;
+} 
+#A9{
+  display: flex;
+  align-items: center;
+  width:50%;
+  /* height:98%; */
+  justify-content: space-around
+  /* justify-content: space-between; */
+}
+.cannabil{
+  width:50px;
+  height : 86.47px;
+}
+#B{
+  display: flex;
+   align-items: center;
+   width:33.333%
+}
+#B2{
+  display: flex;
+  align-items: center;
+  width:50%;
+  justify-content: space-around;
+}
+#B1{
+  display: flex;
+  align-items: center;
+  width:50%;
+  justify-content: space-around;
+}
